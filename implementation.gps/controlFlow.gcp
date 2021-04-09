@@ -1,0 +1,72 @@
+recipe controlFlow()	{
+	if(morningHr) morningFlow(); 
+	else if(workingHr) workingFlow();
+	else if(eveningHr) eveningFlow(); 
+	else if (nightHr) nightFlow();
+	
+	if(dayHr) dayFlowOFN();
+	else if(nightHr) nightFlowOFN(); 
+	
+	if(cycleEnd) safestLocality;
+	decrementLocalTime;
+	alap resetLocality;
+	incrementTime;
+}
+
+function morningFlow()	{
+	controlFlowSchoolMrnHrCTZ;
+	controlFlowSchoolMrnHrGRD;
+	controlFlowLibraryMrnHrCTZ;
+	controlFlowLibraryMrnHrGRD;
+	controlFlowParkMrnHrCTZ;
+	controlFlowParkMrnHrGRD;
+	controlFlowMallMrnHrCTZ;
+	controlFlowMallMrnHrGRD;
+}
+
+function workingFlow()	{
+	controlFlowSchoolWrkHrCTZ;
+	controlFlowSchoolWrkHrGRD;
+	controlFlowLibraryWrkHrCTZ;
+	controlFlowLibraryWrkHrGRD;
+	controlFlowParkWrkHrCTZ;
+	controlFlowParkWrkHrGRD;
+	controlFlowMallWrkHrCTZ;
+	controlFlowMallWrkHrGRD;
+}
+
+function eveningFlow()	{
+	controlFlowSchoolEveHrCTZ;
+	controlFlowSchoolEveHrGRD;
+	controlFlowLibraryEveHrCTZ;
+	controlFlowLibraryEveHrGRD;
+	controlFlowParkEveHrCTZ;
+	controlFlowParkEveHrGRD;
+	controlFlowMallEveHrCTZ;
+	controlFlowMallEveHrGRD;
+}
+
+function nightFlow()	{
+	controlFlowSchoolNghHrCTZ;
+	controlFlowSchoolNghHrGRD;
+	controlFlowLibraryNghHrCTZ;
+	controlFlowLibraryNghHrGRD;
+	controlFlowParkNghHrCTZ;
+	controlFlowParkNghHrGRD;
+	controlFlowMallNghHrCTZ;
+	controlFlowMallNghHrGRD;
+}
+
+function dayFlowOFN()	{
+	controlFlowSchoolDayHrOFN;
+	controlFlowLibraryDayHrOFN;
+	controlFlowParkDayHrOFN;
+	controlFlowMallDayHrOFN;
+}
+
+function nightFlowOFN()	{
+	controlFlowSchoolNghHrOFN;
+	controlFlowLibraryNghHrOFN;
+	controlFlowParkNghHrOFN;
+	controlFlowMallNghHrOFN;
+}

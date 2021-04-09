@@ -1,0 +1,484 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<gxl xmlns="http://www.gupro.de/GXL/gxl-1.0.dtd">
+    <graph role="rule" edgeids="false" edgemode="directed" id="firstCrimeOccurrence">
+        <attr name="priority">
+            <string>1</string>
+        </attr>
+        <attr name="$version">
+            <string>curly</string>
+        </attr>
+        <node id="n0">
+            <attr name="layout">
+                <string>193 254 99 54</string>
+            </attr>
+        </node>
+        <node id="n1">
+            <attr name="layout">
+                <string>443 349 23 18</string>
+            </attr>
+        </node>
+        <node id="n2">
+            <attr name="layout">
+                <string>462 165 23 18</string>
+            </attr>
+        </node>
+        <node id="n3">
+            <attr name="layout">
+                <string>415 456 23 18</string>
+            </attr>
+        </node>
+        <node id="n4">
+            <attr name="layout">
+                <string>35 360 23 18</string>
+            </attr>
+        </node>
+        <node id="n5">
+            <attr name="layout">
+                <string>22 149 17 18</string>
+            </attr>
+        </node>
+        <node id="n6">
+            <attr name="layout">
+                <string>515 455 47 18</string>
+            </attr>
+        </node>
+        <node id="n7">
+            <attr name="layout">
+                <string>543 328 19 19</string>
+            </attr>
+        </node>
+        <node id="n8">
+            <attr name="layout">
+                <string>500 90 47 18</string>
+            </attr>
+        </node>
+        <node id="n9">
+            <attr name="layout">
+                <string>515 9 19 19</string>
+            </attr>
+        </node>
+        <node id="n10">
+            <attr name="layout">
+                <string>157 451 23 18</string>
+            </attr>
+        </node>
+        <node id="n13">
+            <attr name="layout">
+                <string>64 419 19 19</string>
+            </attr>
+        </node>
+        <node id="n15">
+            <attr name="layout">
+                <string>21 16 37 18</string>
+            </attr>
+        </node>
+        <node id="n16">
+            <attr name="layout">
+                <string>245 128 23 18</string>
+            </attr>
+        </node>
+        <node id="n17">
+            <attr name="layout">
+                <string>364 261 19 19</string>
+            </attr>
+        </node>
+        <node id="n18">
+            <attr name="layout">
+                <string>404 54 23 18</string>
+            </attr>
+        </node>
+        <node id="n19">
+            <attr name="layout">
+                <string>410 127 19 19</string>
+            </attr>
+        </node>
+        <node id="n20">
+            <attr name="layout">
+                <string>160 154 23 18</string>
+            </attr>
+        </node>
+        <node id="n21">
+            <attr name="layout">
+                <string>69 108 19 19</string>
+            </attr>
+        </node>
+        <node id="n22">
+            <attr name="layout">
+                <string>269 452 37 18</string>
+            </attr>
+        </node>
+        <node id="n24">
+            <attr name="layout">
+                <string>-4 241 55 36</string>
+            </attr>
+        </node>
+        <node id="n25">
+            <attr name="layout">
+                <string>70 201 19 19</string>
+            </attr>
+        </node>
+        <node id="n26">
+            <attr name="layout">
+                <string>93 253 19 19</string>
+            </attr>
+        </node>
+        <node id="n23">
+            <attr name="layout">
+                <string>341 32 23 18</string>
+            </attr>
+        </node>
+        <node id="n27">
+            <attr name="layout">
+                <string>26 85 23 18</string>
+            </attr>
+        </node>
+        <node id="n28">
+            <attr name="layout">
+                <string>317 96 19 19</string>
+            </attr>
+        </node>
+        <node id="n29">
+            <attr name="layout">
+                <string>199 48 19 19</string>
+            </attr>
+        </node>
+        <node id="n30">
+            <attr name="layout">
+                <string>75 136 23 18</string>
+            </attr>
+        </node>
+        <edge from="n0" to="n0">
+            <attr name="label">
+                <string>color:255,225,0</string>
+            </attr>
+        </edge>
+        <edge from="n0" to="n0">
+            <attr name="label">
+                <string>new:YELLOW</string>
+            </attr>
+        </edge>
+        <edge from="n0" to="n21">
+            <attr name="label">
+                <string>new:local_timer</string>
+            </attr>
+        </edge>
+        <edge from="n0" to="n1">
+            <attr name="label">
+                <string>citizen_number</string>
+            </attr>
+        </edge>
+        <edge from="n0" to="n16">
+            <attr name="label">
+                <string>new:offender_number</string>
+            </attr>
+        </edge>
+        <edge from="n0" to="n2">
+            <attr name="label">
+                <string>del:offender_number</string>
+            </attr>
+        </edge>
+        <edge from="n0" to="n5">
+            <attr name="label">
+                <string>del:local_timer</string>
+            </attr>
+        </edge>
+        <edge from="n0" to="n3">
+            <attr name="label">
+                <string>guardian_number</string>
+            </attr>
+        </edge>
+        <edge from="n0" to="n4">
+            <attr name="label">
+                <string>del:crime_number</string>
+            </attr>
+        </edge>
+        <edge from="n0" to="n10">
+            <attr name="label">
+                <string>new:crime_number</string>
+            </attr>
+        </edge>
+        <edge from="n0" to="n18">
+            <attr name="label">
+                <string>del:hidden_offender_count</string>
+            </attr>
+        </edge>
+        <edge from="n0" to="n20">
+            <attr name="label">
+                <string>new:hidden_offender_count</string>
+            </attr>
+        </edge>
+        <edge from="n0" to="n22">
+            <attr name="label">
+                <string>!=</string>
+            </attr>
+        </edge>
+        <edge from="n1" to="n1">
+            <attr name="label">
+                <string>real:</string>
+            </attr>
+        </edge>
+        <edge from="n2" to="n2">
+            <attr name="label">
+                <string>real:</string>
+            </attr>
+        </edge>
+        <edge from="n3" to="n3">
+            <attr name="label">
+                <string>real:</string>
+            </attr>
+        </edge>
+        <edge from="n4" to="n4">
+            <attr name="label">
+                <string>real:</string>
+            </attr>
+        </edge>
+        <edge from="n5" to="n5">
+            <attr name="label">
+                <string>int:</string>
+            </attr>
+        </edge>
+        <edge from="n6" to="n6">
+            <attr name="label">
+                <string>prod:</string>
+            </attr>
+        </edge>
+        <edge from="n6" to="n1">
+            <attr name="label">
+                <string>arg:1</string>
+            </attr>
+        </edge>
+        <edge from="n6" to="n7">
+            <attr name="label">
+                <string>real:lt</string>
+            </attr>
+        </edge>
+        <edge from="n6" to="n3">
+            <attr name="label">
+                <string>arg:0</string>
+            </attr>
+        </edge>
+        <edge from="n7" to="n7">
+            <attr name="label">
+                <string>bool:true</string>
+            </attr>
+        </edge>
+        <edge from="n8" to="n8">
+            <attr name="label">
+                <string>prod:</string>
+            </attr>
+        </edge>
+        <edge from="n8" to="n2">
+            <attr name="label">
+                <string>arg:1</string>
+            </attr>
+        </edge>
+        <edge from="n8" to="n9">
+            <attr name="label">
+                <string>real:lt</string>
+            </attr>
+        </edge>
+        <edge from="n8" to="n1">
+            <attr name="label">
+                <string>arg:0</string>
+            </attr>
+        </edge>
+        <edge from="n9" to="n9">
+            <attr name="label">
+                <string>bool:true</string>
+            </attr>
+        </edge>
+        <edge from="n10" to="n10">
+            <attr name="label">
+                <string>real:</string>
+            </attr>
+        </edge>
+        <edge from="n13" to="n13">
+            <attr name="label">
+                <string>prod:</string>
+            </attr>
+        </edge>
+        <edge from="n13" to="n4">
+            <attr name="label">
+                <string>arg:1</string>
+            </attr>
+        </edge>
+        <edge from="n13" to="n1">
+            <attr name="label">
+                <string>arg:0</string>
+            </attr>
+        </edge>
+        <edge from="n13" to="n10">
+            <attr name="label">
+                <string>real:add</string>
+            </attr>
+        </edge>
+        <edge from="n15" to="n15">
+            <attr name="label">
+                <string>type:Home</string>
+            </attr>
+        </edge>
+        <edge from="n15" to="n23">
+            <attr name="label">
+                <string>del:hidden_offender</string>
+            </attr>
+        </edge>
+        <edge from="n15" to="n27">
+            <attr name="label">
+                <string>new:hidden_offender</string>
+            </attr>
+        </edge>
+        <edge from="n16" to="n16">
+            <attr name="label">
+                <string>real:</string>
+            </attr>
+        </edge>
+        <edge from="n17" to="n17">
+            <attr name="label">
+                <string>prod:</string>
+            </attr>
+        </edge>
+        <edge from="n17" to="n1">
+            <attr name="label">
+                <string>arg:1</string>
+            </attr>
+        </edge>
+        <edge from="n17" to="n16">
+            <attr name="label">
+                <string>real:sub</string>
+            </attr>
+        </edge>
+        <edge from="n17" to="n2">
+            <attr name="label">
+                <string>arg:0</string>
+            </attr>
+        </edge>
+        <edge from="n18" to="n18">
+            <attr name="label">
+                <string>real:</string>
+            </attr>
+        </edge>
+        <edge from="n19" to="n19">
+            <attr name="label">
+                <string>prod:</string>
+            </attr>
+        </edge>
+        <edge from="n19" to="n20">
+            <attr name="label">
+                <string>real:add</string>
+            </attr>
+        </edge>
+        <edge from="n19" to="n18">
+            <attr name="label">
+                <string>arg:1</string>
+            </attr>
+        </edge>
+        <edge from="n19" to="n1">
+            <attr name="label">
+                <string>arg:0</string>
+            </attr>
+        </edge>
+        <edge from="n20" to="n20">
+            <attr name="label">
+                <string>real:</string>
+            </attr>
+        </edge>
+        <edge from="n21" to="n21">
+            <attr name="label">
+                <string>int:2</string>
+            </attr>
+        </edge>
+        <edge from="n22" to="n22">
+            <attr name="label">
+                <string>type:Home</string>
+            </attr>
+        </edge>
+        <edge from="n24" to="n24">
+            <attr name="label">
+                <string>prod:</string>
+            </attr>
+        </edge>
+        <edge from="n24" to="n26">
+            <attr name="label">
+                <string>int:eq</string>
+            </attr>
+        </edge>
+        <edge from="n24" to="n5">
+            <attr name="label">
+                <string>arg:1</string>
+            </attr>
+        </edge>
+        <edge from="n24" to="n25">
+            <attr name="label">
+                <string>arg:0</string>
+            </attr>
+        </edge>
+        <edge from="n25" to="n25">
+            <attr name="label">
+                <string>int:0</string>
+            </attr>
+        </edge>
+        <edge from="n26" to="n26">
+            <attr name="label">
+                <string>bool:true</string>
+            </attr>
+        </edge>
+        <edge from="n23" to="n23">
+            <attr name="label">
+                <string>real:</string>
+            </attr>
+        </edge>
+        <edge from="n27" to="n27">
+            <attr name="label">
+                <string>real:</string>
+            </attr>
+        </edge>
+        <edge from="n28" to="n28">
+            <attr name="label">
+                <string>prod:</string>
+            </attr>
+        </edge>
+        <edge from="n28" to="n23">
+            <attr name="label">
+                <string>arg:0</string>
+            </attr>
+        </edge>
+        <edge from="n28" to="n27">
+            <attr name="label">
+                <string>real:add</string>
+            </attr>
+        </edge>
+        <edge from="n28" to="n30">
+            <attr name="label">
+                <string>arg:1</string>
+            </attr>
+        </edge>
+        <edge from="n29" to="n29">
+            <attr name="label">
+                <string>prod:</string>
+            </attr>
+        </edge>
+        <edge from="n29" to="n20">
+            <attr name="label">
+                <string>arg:0</string>
+            </attr>
+            <attr name="layout">
+                <string>551 -9 208 57 171 163 11</string>
+            </attr>
+        </edge>
+        <edge from="n29" to="n30">
+            <attr name="label">
+                <string>real:sub</string>
+            </attr>
+        </edge>
+        <edge from="n29" to="n18">
+            <attr name="label">
+                <string>arg:1</string>
+            </attr>
+        </edge>
+        <edge from="n30" to="n30">
+            <attr name="label">
+                <string>real:</string>
+            </attr>
+        </edge>
+    </graph>
+</gxl>
